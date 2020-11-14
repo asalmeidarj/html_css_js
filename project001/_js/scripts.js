@@ -16,16 +16,12 @@ function dinamicImage(){
     else if (hours < 18){
         imageTemporal.src="_imagens/afternoon-small.jpg"
         window.document.body.style.background = "orange"
-
-        
     }
     else {
         var fot = window.document.getElementById("footer")
         fot.style.color = "white"
         imageTemporal.src="_imagens/night-small.jpg"
-        window.document.body.style.background = "black"
-
-        
+        window.document.body.style.background = "black"       
     }
 }
 
